@@ -79,7 +79,7 @@ public void insertMiddle(int data, int pos) {
     if (pos == 1) {
         newNode.next = head;
         head = newNode;
-        System.out.println("Element Inserted");
+        System.out.println("Element InsertedLINKED LIST AFTER INSERTING");
         return;
     }
 
